@@ -1,12 +1,12 @@
 steps:
  # Docker Build
-  - name: 'gcr.io/cloud-builders/docker'
+  - name: 'gcr.io/cloud-builders/dockerexp'
     args: ['build', '-t', 
            'us-central1-docker.pkg.dev/devtools-317213/my-docker-repo/myimage', 
            '.']
 
   # Docker Push
-  - name: 'gcr.io/cloud-builders/docker'
+  - name: 'gcr.io/cloud-builders/dockerexp'
     args: ['push', 
            'us-central1-docker.pkg.dev/devtools-317213/my-docker-repo/myimage']
 
