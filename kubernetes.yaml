@@ -23,7 +23,7 @@ spec:
 kind: Service
 apiVersion: v1
 metadata:
-  name: hello-devtools-service 
+  name: hello-0 
 spec:
   selector:
     app: hello-cloudbuild
