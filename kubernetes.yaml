@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: hello-test-1
+  name: hello-0-1
   labels:
     app: hello-cloudbuild
 spec:
